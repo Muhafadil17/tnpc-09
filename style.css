@@ -887,6 +887,28 @@ p {
   display: block;
 }
 
+.card-img-top {
+  max-width: 200px; /* Sesuaikan dengan ukuran yang diinginkan */
+  height: auto;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+
 
 /* ===== Buttons Css ===== */
 .header-eight .primary-btn {
